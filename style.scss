@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(to left , #000046, #1CB5E0)
+}
+.btn-contain  {
+    font-weight: 500;
+    padding: 9px 23px;
+    border: 0;
+    margin: 10px 13px;
+    border-radius: 1000px;
+
+    color: #fff;
+    text-shadow: 1px 1px 8px black;
+}
+.btn-contain:nth-of-type(1) {
+    background: linear-gradient(to left, #ff9966, #ff5e62);
+}
+.btn-contain:nth-of-type(2) {
+    background:  linear-gradient(to left,  #0052D4,  #4364F7,  #6FB1FC);
+}
+.btn-contain:nth-of-type(3) {
+    background:  linear-gradient(to left, #000000, #434343);
+}
+.btn-contain:nth-of-type(4) {
+    background:  linear-gradient(to left, #00416A, #E4E5E6);
+}
+.btn-contain:nth-of-type(5) {
+    background:  linear-gradient(to left, #1488CC,  #2B32B2);
+}
+.btn-contain:nth-of-type(6) {
+    background:  linear-gradient(to left, #00416A, #E4E5E6);
+}
+.btn-contain:nth-of-type(7) {
+    background:  linear-gradient(to left,  #000000, #434343);
+}
+.btn-contain:nth-of-type(8) {
+    background:  linear-gradient(to left, #0052D4,  #4364F7,  #6FB1FC);
+}
+.btn-contain:nth-of-type(9) {
+    background:  linear-gradient(to left,#FF512F, #DD2476);
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+.text-header {
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 6px black;
+}
+.whole {
+    border: 2px solid black;
+    min-width: 250px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.activity {
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 1px 1px 6px black;
+
+}
+.type {
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 1px 1px 6px black;
+}
